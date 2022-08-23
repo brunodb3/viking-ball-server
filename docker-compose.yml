@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  server:
+    build: .
+    container_name: server
+    ports:
+      - "8000:8000"
+    networks:
+      pixie:
+
+networks:
+  pixie:
