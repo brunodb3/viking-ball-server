@@ -8,6 +8,7 @@
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
     "start": "node dist/main.js",
+    "start:vercel": "node main.js",
     "start:dev": "ts-node-dev --clear src/main.ts",
     "schemas": "rm -r -f ./output && mkdir ./output && yarn schemas:rooms && yarn schemas:entities",
     "schemas:entities": "schema-codegen ./src/schemas/**/* --ts --output ./output/schemas",
