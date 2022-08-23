@@ -7,7 +7,6 @@
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
-    "prestart": "yarn build",
     "start": "node -r ts-node/register/transpile-only -r tsconfig-paths/register dist/main.js",
     "start:dev": "ts-node-dev --clear -r tsconfig-paths/register src/main.ts",
     "schemas": "rm -r -f ./output && mkdir ./output && yarn schemas:rooms && yarn schemas:entities",
