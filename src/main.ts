@@ -5,8 +5,8 @@ import { Server } from "colyseus";
 import { monitor } from "@colyseus/monitor";
 import { WebSocketTransport } from "@colyseus/ws-transport";
 
-import { Logger } from "@utils";
-import { LobbyRoom, MatchRoom } from "@rooms";
+import { Logger } from "./utils";
+import { LobbyRoom, MatchRoom } from "./rooms";
 
 const express = Express();
 const logger = new Logger("main");

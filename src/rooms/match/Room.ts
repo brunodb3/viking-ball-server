@@ -1,8 +1,8 @@
 import { Room, Client } from "colyseus";
 
-import { Logger } from "@utils";
-import { Match as MatchState, MatchSettings } from "@rooms";
-import { BallSettings, PlayerInput, PlayerSettings } from "@schemas";
+import { Logger } from "../../utils";
+import { Match as MatchState, MatchSettings } from "../../rooms";
+import { BallSettings, PlayerInput, PlayerSettings } from "../../schemas";
 
 export class MatchRoom extends Room<MatchState> {
   private logger: Logger;

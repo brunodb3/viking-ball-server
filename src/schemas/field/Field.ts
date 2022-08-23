@@ -1,8 +1,8 @@
 import { Bodies, Body } from "matter-js";
 import { Schema, defineTypes } from "@colyseus/schema";
 
-import { textureMap } from "@utils";
-import { Vector, Rectangle, Box } from "@schemas";
+import { textureMap } from "../../utils";
+import { Vector, Rectangle, Box } from "../../schemas";
 
 export class Field extends Schema {
   public body: any;

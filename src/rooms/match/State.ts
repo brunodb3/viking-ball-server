@@ -2,7 +2,7 @@ import Victor from "victor";
 import { MapSchema, Schema, defineTypes } from "@colyseus/schema";
 import { Engine, Runner, World, Constraint, Collision } from "matter-js";
 
-import { Direction, Timer } from "@utils";
+import { Direction, Timer } from "../../utils";
 import {
   Player,
   PlayerSettings,
@@ -11,7 +11,7 @@ import {
   Field,
   BallSettings,
   PlayerInput,
-} from "@schemas";
+} from "../../schemas";
 
 export interface MatchSettings {
   constraint?: {

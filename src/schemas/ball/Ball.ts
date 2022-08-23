@@ -2,8 +2,8 @@ import Victor from "victor";
 import { Bodies, Body } from "matter-js";
 import { Schema, defineTypes } from "@colyseus/schema";
 
-import { Vector } from "@schemas";
-import { Direction, textureMap } from "@utils";
+import { Vector } from "../../schemas";
+import { Direction, textureMap } from "../../utils";
 
 export interface BallSettings {
   kickForce?: number;

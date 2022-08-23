@@ -15,12 +15,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
-    "outDir": "dist",
-    "paths": {
-      "@utils": ["src/utils"],
-      "@rooms": ["src/rooms"],
-      "@schemas": ["src/schemas"]
-    }
+    "outDir": "dist"
   },
   "include": ["src", "globals.d.ts"]
 }

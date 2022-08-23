@@ -1,6 +1,6 @@
 import { Room, Client } from "colyseus";
 
-import { Logger } from "@utils";
+import { Logger } from "../../utils";
 
 export class LobbyRoom extends Room {
   private logger: Logger;

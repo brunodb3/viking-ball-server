@@ -7,8 +7,8 @@ import {
   DirectionVectors,
   IndexesToDirections,
   textureMap,
-} from "@utils";
-import { Animation, Vector } from "@schemas";
+} from "../../utils";
+import { Animation, Vector } from "../../schemas";
 
 export interface PlayerInput {
   running: boolean;
